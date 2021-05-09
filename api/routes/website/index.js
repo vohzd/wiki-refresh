@@ -33,6 +33,9 @@ router.get("/website", async (req, res, next) => {
     $(".box-One_source").remove();
     $(".mw-indicators").remove();
     $(".box-More_footnotes").remove();
+    $(".metadata").remove();
+
+
 
 
 

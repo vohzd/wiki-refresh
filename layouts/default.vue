@@ -88,22 +88,43 @@
   }
 
   h1 {
-    font-size: 52px;
-    margin-bottom: 1.2em;
+    font-size: 64px;
+    margin-bottom: 1em;
+    width: 100%;
+    float: left;
+    border-bottom: 4px solid rgba(0,0,0,0.24);
   }
 
   h2 {
-    font-size: 32px;
-    margin-bottom: 0.6em;
+    font-size: 42px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    float: left;
+    width: 100%;
   }
 
   h3 {
-    font-size: 24px;
-    margin-bottom: 0.6em;
+    font-size: 28px;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    float: left;
+    width: 100%;
   }
 
   p {
+    width: 100%;
+    float: left;
+    margin-top: 1.2em;
     margin-bottom: 1.2em;
+  }
+
+  .reflist {
+    width: 100%;
+    column-width: 100%;
+  }
+
+  .sidebar {
+    display: none;
   }
 
   input {
@@ -141,6 +162,17 @@
     z-index: 5;
   }
 
+  .wikitable tr td {
+    text-align: center;
+    height: 64px;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .wikitable tr:nth-child(odd) {
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
 
 
   .site-logo-wrapper {

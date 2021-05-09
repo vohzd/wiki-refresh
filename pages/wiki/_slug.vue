@@ -53,6 +53,30 @@ body {
   overflow: scroll;
 }
 
+.toccolours {
+  width: 100%;
+  margin: 0px;
+}
+
+.toccolours tbody tr {
+  background: none !important;
+  height: 150px;
+
+}
+.toccolours tbody tr th {
+  text-align: center;
+}
+.toccolours tbody tr td {
+  text-align: center;
+}
+
+.toccolours tbody tr td:last-child {
+  font-size: 14px;
+}
+.toccolours tbody tr:nth-child(even) {
+  background: rgba(0,0,0,0.15) !important;
+}
+
 .infobox tbody {
 }
 
@@ -105,7 +129,7 @@ a.image:first-child {
   position: fixed;
   right: 0px;
   top: 0px;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 8px;
   min-width: 12%;
   padding: 8px;
@@ -114,14 +138,12 @@ a.image:first-child {
 }
 
 #toc h2 {
-  font-size: 22px;
-  margin-bottom: 4px;
-  line-height: 24px;
+  display: none;
 }
 
 .toclevel-2 {
-  font-size: 10px;
-  margin-left: 10px;
+  font-size: 12px;
+  margin-left: 12px;
 }
 
 img {

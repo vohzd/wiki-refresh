@@ -64,9 +64,9 @@
     color: var(--text);
     height: calc(100vh - 64px);
     top: 64px;
-    font-size: 18px;
+    font-size: 22px;
     text-shadow: 1px 1px rgba(0,0,0,0.05);
-    line-height: 1.5em;
+    line-height: 2.2em;
     position: relative;
   }
 
@@ -129,6 +129,18 @@
 
   input {
     color: var(--text);
+  }
+
+  blockquote {
+    background: rgba(0,0,0,0.1) !important;
+    line-height: 1.2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-style: italic;
+    display: inline-block;
+    padding: 32px;
   }
 
   .text-ellipsis {

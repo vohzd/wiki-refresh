@@ -34,6 +34,9 @@ router.get("/website", async (req, res, next) => {
     $(".mw-indicators").remove();
     $(".box-More_footnotes").remove();
     $(".metadata").remove();
+    $(".printfooter").remove();
+
+
 
 
 

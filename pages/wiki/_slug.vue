@@ -45,12 +45,21 @@ body {
   left: 0;
   top: 0;
   width: 16% !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   background: rgba(0,0,0,0.1);
   text-align: center !important;
   border-radius: 8px;
-  line-height: 14px;
+  line-height: 18px;
   overflow: scroll;
+}
+
+.infobox-above {
+  font-size: 32px;
+  line-height: 1.2em;
+}
+
+.infobox tbody tr:nth-child(odd) {
+  background: rgba(0,0,0,0.1) !important;
 }
 
 .toccolours {
@@ -58,9 +67,12 @@ body {
   margin: 0px;
 }
 
+.collapsible {
+  display: none;
+}
+
 .toccolours tbody tr {
   background: none !important;
-  height: 150px;
 
 }
 .toccolours tbody tr th {
@@ -81,6 +93,7 @@ body {
 }
 
 .infobox a.image {
+  width: 100%;
 }
 .infobox td, .infobox th {
   padding: 8px !important;
@@ -109,12 +122,7 @@ ol li {
   font-size: 10px;
 }
 
-/*
-a.image:first-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
+
 
 .thumbcaption {
   font-size: 12px;
